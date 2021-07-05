@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+{% for post in paginator.posts %}
+  <article>
+    <header>
+      <span class="post-date-tags">
+        {{ post.date | date: "%d/%m/%Y" }}
+      </span>
+      <h1><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+    </header>
+    <div>
+      {{ post.content }}
+    </div>
+  </article>
+  <hr>
+{% endfor %}
