@@ -1,28 +1,12 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="utf-8">
-    <title>
-      vickysled блог
-    </title>
-    <meta property="og:title" content="vickysled блог">
-    <meta property="og:site_name" content="vickysled">
-    <link rel="stylesheet" href="/assets/css/main.css">
-    <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="vickysled">
-   </head>
+    {% include head.html %}
+  </head>
   <body>
-    <header class="center" role="banner">
-      <div class="wrapper">
-        <a class="site-title" rel="author" href="/">я говорю хэй</a>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="{{ site.baseurl }}/watching">смотрю</a></li>
-        </ul>
-      </nav>
-     </header>
+    {% include header.html %}
     <main>
-     {{ content }}
+      {{ content }}
     </main>
   </body>
 </html>
