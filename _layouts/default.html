@@ -3,11 +3,17 @@
   <head>
     <meta charset="utf-8">
     <title>
-      "Блог vickysled"
+      vickysled блог
     </title>
-    <meta property="og:title" content="Блог vickysled">
+    <meta property="og:title" content="vickysled блог">
     <meta property="og:site_name" content="vickysled">
     <link rel="stylesheet" href="/assets/css/main.css">
     <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="vickysled">
    </head>
+  <body>
+    {% include header.html %}
+    <main>
+      {{ content }}
+    </main>
+  </body>
 </html>
