@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "да будет первый пост"
-date:   2021-07-05 22:14:09
+title:  "рисую всякое1"
+date:   2021-12-06 22:14:09
 ---
 
-тысячу лет разбираюсь
+<figure><img src="{{ site.url }}/assets/images/falling.jpg"></figure>
